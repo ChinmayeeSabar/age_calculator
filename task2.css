@@ -1,0 +1,44 @@
+body {
+    background-color: #16171E;
+    color: azure;
+}
+
+.container {
+    display: flex;
+    background-color: #20212B;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    padding-top: 10px;
+    margin: 200px 450px 2px 450px;
+    border-radius: 20px;
+
+}
+
+h5 {
+    color: green;
+    font-family: Arial;
+    letter-spacing: 0.05cm;
+}
+
+h2 {
+    font-family: Arial;
+    color: #ccc;
+    padding: 20px;
+}
+
+#next {
+    background-color: #67D865;
+    color: black;
+    border-radius: 25px;
+    padding: 10px 50px;
+    font-family: Arial;
+    margin-top: 2px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.03cm;
+
+
+}
