@@ -4,19 +4,19 @@ var increaseBtn = document.getElementById("btn-increase");
 
 var numberDiv = document.getElementById("number");
 
-//increase functons
-function increase(){
-    numberDiv.innerHtml = Number(number.innerHTML) +1;
+// increase function
+function increase() {
+  numberDiv.innerHTML = Number(numberDiv.innerHTML) + 1;
 }
 
-//decrease functions
-function decrease(){
-    numberDiv.innerHTML = Number(number.innerHTML) -1;
+// decrease function
+function decrease() {
+  numberDiv.innerHTML = Number(numberDiv.innerHTML) - 1;
 }
 
-//reset functions
-function reset(){
-    numberDiv.innerHTML = 0;
+// reset function
+function reset() {
+  numberDiv.innerHTML = 0;
 }
 
 increaseBtn.addEventListener("click", increase);
